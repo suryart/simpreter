@@ -1,0 +1,31 @@
+== Simpreter a.k.a Simple Interpreter
+Simple interpret takes input in between rectangular brackets, then print them if print *variable_name* is presented in its scope, if not defined then it will show "0".
+
+=== Scope:
+Many programming languages implement scope for variables – and they are context sensitive. For example a global scope variable will be over-ridden using local variable definition. You need to implement simple interpreter which tells us current value of a variable, if its not defined then value should be zero, Input will start with '[' and will end with matching ']'
+
+This interpreter takes input like this:
+
+  [
+    a 10
+    b 10
+    print a
+    print b
+    [
+      a 20
+      print a
+      print b
+     ]
+   ]
+
+And generates an output for the above input like this:
+
+  10
+  10
+  20
+  10
+
+=== How to start simpreter
+* Clone the repository: `git clone git@github.com:SuryaTripathi/simpreter.git`
+* cd to the directory you've cloned this repository.
+* At last type: `ruby start.rb`
