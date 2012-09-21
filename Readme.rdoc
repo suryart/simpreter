@@ -20,15 +20,15 @@ This interpreter takes input like this:
 
 And generates an output for the above input like this:
 
-  10
+  10  
   10
   20
   10
 
 === How to start simpreter
-* Clone the repository: `git clone git@github.com:SuryaTripathi/simpreter.git`
+* Clone the repository: "git clone git@github.com:SuryaTripathi/simpreter.git"
 * cd to the directory you've cloned this repository.
-* At last type: `ruby start.rb`
+* At last type: "ruby start.rb"
 
 === Copyright
 
